@@ -1,42 +1,141 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.ctn {
+  border: 1px solid #333;
+  margin: 50px auto;
+  width: 317PX;
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
+  font-family: Inter, sans-serif;
+}
+
+/* Image */
+img {
+  width: 317PX;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#ctn-image p {
+  background-color:rgba(0,0,0,0.9);
+  margin-bottom: -25px; 
+  font-size: 9px;
+}
+
+#attribution {
+  position: relative;
+  bottom: 23px;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+/* Container for mid secion */
+.ctn-mid-section {
+  min-height: 399px;
+  padding: 0 25px;
+}
+
+/* Info section */
+.info {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.info h1 {
+  margin-bottom: 0;
+  padding-top: 0; 
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info h3 {
+  color: #F3BF99;
+  margin-top: 0;
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.info a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+}
+.info a:hover,
+.info a:focus {
+  color: gray;
 }
 
-.card {
-  padding: 2em;
+/* Buttons */
+button {
+  border: none;
+  min-width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  padding: 9px, 13px, 9px, 11px;
+  cursor: pointer;
 }
 
-.read-the-docs {
-  color: #888;
+.buttons {
+  margin: 15px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+i {
+  margin: 0 5px;
+}
+
+#btn-email {
+  color: #374151;
+}
+
+#btn-email:hover,
+#btn-email:focus {
+  color: white;
+  background-color: #374151;
+}
+
+#btn-linkedin {
+  color: white;
+  background-color: #5093E2;
+}
+
+#btn-linkedin:hover,
+#btn-linkedin:focus {
+  color: #5093E2;
+  background-color: white;
+}
+
+/* About & Interests section */
+#about,
+#interests {
+  font-weight: 200;
+  letter-spacing: 1px; 
+  margin-top: 40px;
+}
+
+#about h4,
+#interests h4 {
+  margin-bottom: 0;
+}
+
+#interests {
+  margin-bottom: 50px;
+}
+
+/* Footer */
+footer {
+  width: 317PX;
+  height: 64px;
+  margin-left: -25px;
+  background-color: #161619;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer i {
+  margin: 0 15px;
+}
+
+footer i:hover,
+footer i:focus {
+  color: gray;
+  cursor: pointer;
 }
