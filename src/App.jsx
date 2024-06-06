@@ -6,8 +6,6 @@ import WorkExperience from './components/WorkExperience';
 import Education from './components/Education';
 
 function App() {
-  const { collapseSidebar } = useProSidebar();
-
   return (
 <div className="ctn">
       <MainPage />
