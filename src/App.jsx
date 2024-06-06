@@ -8,7 +8,6 @@ import Interests from './components/Interests';
 import Footer from './components/Footer';
 import WorkExperience from './components/WorkExperience';
 import Education from './components/Education';
-import InterestsPage from './components/InterestsPage';
 import SideMenu from './components/SideMenu';
 
 function App() {
