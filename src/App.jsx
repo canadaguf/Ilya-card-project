@@ -34,7 +34,7 @@ function App() {
         <main style={{ padding: "10px", width: "100%" }}>
           <Routes>
             <Route exact path="/" component={<MainPage />} />
-            <Route path="/work-experience" component={<WorkExperience /} />
+            <Route path="/work-experience" component={<WorkExperience />} />
             <Route path="/education" component={<Education />} />
           </Routes>
         </main>
