@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
 import './App.css';
 import Photo from './components/Photo';
 import Info from './components/Info';
@@ -11,15 +12,17 @@ import Education from './components/Education';
 import SideMenu from './components/SideMenu';
 
 function App() {
+  const [count, setCount] = useState(0)
+
   return (
     <Router>
       <div className="app-container">
         <SideMenu />
-        <Switch>
+        <Routes>
           <Route exact path="/" component={MainPage} />
           <Route path="/work-experience" component={WorkExperience} />
           <Route path="/education" component={Education} />
-        </Switch>
+        </Routes>
       </div>
     </Router>
   );

@@ -89,13 +89,13 @@ i {
   background-color: #374151;
 }
 
-#btn-linkedin {
+#btn-phone {
   color: white;
   background-color: #5093E2;
 }
 
-#btn-linkedin:hover,
-#btn-linkedin:focus {
+#btn-phone:hover,
+#btn-phone:focus {
   color: #5093E2;
   background-color: white;
 }
@@ -140,6 +140,7 @@ footer i:focus {
   cursor: pointer;
 }
 
+/* Side Menu */
 .app-container {
   display: flex;
 }
