@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Sidebar, Menu, MenuItem, useProSidebar } from 'react-pro-sidebar';
 import './App.css';
 import Photo from './components/Photo';
@@ -27,15 +27,15 @@ function App() {
               },
             }}
           >
-            <MenuItem component={<a href="/work-experience" />}>Work Experience</MenuItem>
-            <MenuItem component={<a href="/education" />}>Education</MenuItem>
+            <MenuItem><Link to="/work-experience">Work Experience</Link></MenuItem>
+            <MenuItem><Link to="/education">Education</Link></MenuItem>
           </Menu>
         </Sidebar>
         <main style={{ padding: "10px", width: "100%" }}>
           <Routes>
-            <Route exact path="/" component={<MainPage />} />
-            <Route path="/work-experience" component={<WorkExperience />} />
-            <Route path="/education" component={<Education />} />
+            <Route exact path="/" element={<MainPage />} />
+            <Route path="/work-experience" element={<WorkExperience />} />
+            <Route path="/education" element={<Education />} />
           </Routes>
         </main>
       </div>
