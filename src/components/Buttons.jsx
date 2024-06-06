@@ -1,8 +1,16 @@
 export default function Buttons() {
     return (
         <div className="buttons">
-            <button id="btn-email"><i className="fa fa-envelope"></i>Email</button>
-            <button id="btn-linkedin"><i className="fab fa-linkedin"></i>LinkedIn</button>
+            <a href="mailto:ilyaiono@gmail.com">
+                <button id="btn-email">
+                    <i className="fa fa-envelope"></i>Email
+                </button>
+            </a>
+            <a href="tel:+79384668931">
+                <button id="btn-phone">
+                    <i className="fa-solid fa-phone"></i>Phone
+                </button>
+            </a>
         </div>
     );
 }

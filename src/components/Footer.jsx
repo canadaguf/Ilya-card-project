@@ -1,10 +1,12 @@
 export default function Footer() {
     return (
         <footer>
-            <i className="fab fa-twitter fa-lg"></i>
-            <i className="fab fa-linkedin fa-lg"></i>
-            <i className="fab fa-codepen fa-lg"></i>
-            <i className="fab fa-github fa-lg"></i>
+            <a href="https://t.me/ilyaiono" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-telegram fa-lg"></i>
+            </a>
+            <a href="https://github.com/canadaguf" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-github fa-lg"></i>
+            </a>
         </footer>
     );
 }
