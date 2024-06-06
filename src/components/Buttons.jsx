@@ -8,7 +8,7 @@ export default function Buttons() {
             </a>
             <a href="tel:+79384668931">
                 <button id="btn-phone">
-                    <i className="fa-solid fa-phone"></i>Phone
+                    <i className="fa fa-phone"></i>Phone
                 </button>
             </a>
         </div>
