@@ -33,9 +33,9 @@ function App() {
         </Sidebar>
         <main style={{ padding: "10px", width: "100%" }}>
           <Routes>
-            <Route exact path="/" component={MainPage} />
-            <Route path="/work-experience" component={WorkExperience} />
-            <Route path="/education" component={Education} />
+            <Route exact path="/" component={<MainPage />} />
+            <Route path="/work-experience" component={<WorkExperience /} />
+            <Route path="/education" component={<Education />} />
           </Routes>
         </main>
       </div>
