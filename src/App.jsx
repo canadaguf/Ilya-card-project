@@ -1,12 +1,7 @@
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Sidebar, Menu, MenuItem, useProSidebar } from 'react-pro-sidebar';
 import './App.css';
-import Photo from './components/Photo';
-import Info from './components/Info';
-import Buttons from './components/Buttons';
-import About from './components/About';
-import Interests from './components/Interests';
-import Footer from './components/Footer';
+import MainPage from './components/MainPage.jsx';
 import WorkExperience from './components/WorkExperience';
 import Education from './components/Education';
 
@@ -40,21 +35,6 @@ function App() {
         </main>
       </div>
     </Router>
-  );
-}
-
-function MainPage() {
-  return (
-    <div className="ctn">
-      <Photo />
-      <div className='ctn-mid-section'>
-        <Info />
-        <Buttons />
-        <About />
-        <Interests />
-        <Footer />
-      </div>
-    </div>
   );
 }
 
