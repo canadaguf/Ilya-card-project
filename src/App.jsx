@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { useState } from 'react';
+import { Sidebar, Menu, MenuItem, useProSidebar } from 'react-pro-sidebar';
 import './App.css';
 import Photo from './components/Photo';
 import Info from './components/Info';
@@ -9,20 +9,35 @@ import Interests from './components/Interests';
 import Footer from './components/Footer';
 import WorkExperience from './components/WorkExperience';
 import Education from './components/Education';
-import SideMenu from './components/SideMenu';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const { collapseSidebar } = useProSidebar();
 
   return (
     <Router>
-      <div className="app-container">
-        <SideMenu />
-        <Routes>
-          <Route exact path="/" component={MainPage} />
-          <Route path="/work-experience" component={WorkExperience} />
-          <Route path="/education" component={Education} />
-        </Routes>
+      <div id="app" style={{ height: "100vh", display: "flex" }}>
+        <Sidebar style={{ height: "100vh" }}>
+          <Menu
+            menuItemStyles={{
+              button: {
+                [`&.active`]: {
+                  backgroundColor: '#13395e',
+                  color: '#b6c8d9',
+                },
+              },
+            }}
+          >
+            <MenuItem component={<a href="/work-experience" />}>Work Experience</MenuItem>
+            <MenuItem component={<a href="/education" />}>Education</MenuItem>
+          </Menu>
+        </Sidebar>
+        <main style={{ padding: "10px", width: "100%" }}>
+          <Routes>
+            <Route exact path="/" component={MainPage} />
+            <Route path="/work-experience" component={WorkExperience} />
+            <Route path="/education" component={Education} />
+          </Routes>
+        </main>
       </div>
     </Router>
   );
