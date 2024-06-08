@@ -1,0 +1,63 @@
+[
+    {
+      "latitude": 43.25802125455174,
+      "longitude": -79.90618149940971,
+      "type": "High School",
+      "name": "Columbia International College",
+      "fulladdress": "1003 Main St W, Hamilton, ON L8S 4P3, Canada",
+      "year": "2010-2014",
+      "website": "https://www.cic-totalcare.com/",
+      "program": ""
+    },
+    {
+      "latitude": 45.42296792639444, 
+      "longitude": -75.68319336581345,
+      "type": "University",
+      "name": "University of Ottawa",
+      "fulladdress": "75 Laurier Ave E, Ottawa, ON K1N 6N5, Canada",
+      "year": "2014-2015",
+      "website": "https://www.uottawa.ca/en",
+      "program": "Joint Honours BSocSc in Communication and Political Science"
+    },
+    {
+      "latitude": 55.66505222462235,
+      "longitude": 37.47867815039749,
+      "type": "Университет",
+      "name": "РАНХиГС",
+      "fulladdress": "пр. Вернадского, д. 82, Москва, Россия, 119571",
+      "year": "2015-2016",
+      "website": "https://www.ranepa.ru/",
+      "program": "Факультет экономических и социальных наук, управление предприятиями"
+    },
+    {
+      "latitude": 55.709335,
+      "longitude": 37.588446,
+      "type": "Колледж",
+      "name": "Колледж сферы услуг №32",
+      "fulladdress": "улица Орджоникидзе, 15, Москва, 119071",
+      "year": "2017-2018",
+      "website": "https://spo-32.mskobr.ru/",
+      "program": "Повар, кондитер"
+    },
+    {
+      "latitude": 43.598147,
+      "longitude": 39.722233,
+      "type": "Колледж",
+      "name": "Сочинский торгово-технологический техникум №76",
+      "fulladdress": "улица Гагарина, 10А, Сочи, Краснодарский край, 354065",
+      "year": "2018-2019",
+      "website": "",
+      "program": "Повар, кондитер"
+    },
+    {
+      "latitude": 55.738698, 
+      "longitude": 37.487577,
+      "type": "Университет",
+      "name": "Финансовый университет при Правительстве РФ",
+      "fulladdress": "улица Олеко Дундича, 23, Москва, 121096",
+      "year": "2021-2026",
+      "website": "http://www.fa.ru/Pages/Home.aspx",
+      "program": "Прикладная информатика"
+    }
+  ]
+  

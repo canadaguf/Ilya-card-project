@@ -140,27 +140,16 @@ footer i:focus {
   cursor: pointer;
 }
 
-/* Side Menu */
-.app-container {
-  display: flex;
+/* SideMenu */
+h1 {
+  color: #165a72;
+  margin: 50px auto;
+  font-size: 40px;
 }
-
-.side-menu {
-  width: 200px;
-  background-color: #f4f4f4;
-  padding: 20px;
+.menu1 {
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
-
-.side-menu ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.side-menu ul li {
-  margin: 10px 0;
-}
-
-.side-menu ul li a {
-  text-decoration: none;
-  color: #000;
+h2 {
+  color: #165a72;
 }
