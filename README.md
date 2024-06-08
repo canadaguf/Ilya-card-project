@@ -11,13 +11,14 @@ My personal CV in a form of little web-site, showcasing React usage. Was created
 To access it, just go to => https://ilya-ionov.netlify.app/
 
 ## Technologies
-- React
-  - @mui/material-ui(https://github.com/mui/material-ui) 
-  - @react-pro-sidebar(https://github.com/azouaoui-med/react-pro-sidebar)
-  - @react-leaflet(https://github.com/PaulLeCam/react-leaflet)
-  - @react-router-dom(https://github.com/remix-run/react-router)
-- Vite(https://github.com/vitejs/vite)
-- Netlify(https://github.com/netlify)
-  - @netlify-cli(https://github.com/netlify/cli)
 
-Special thanks to Michael J. Larocca(https://github.com/MichaelLarocca)
+- [React](https://reactjs.org/)
+  - [@mui/material-ui](https://github.com/mui/material-ui)
+  - [@react-pro-sidebar](https://github.com/azouaoui-med/react-pro-sidebar)
+  - [@react-leaflet](https://github.com/PaulLeCam/react-leaflet)
+  - [@react-router-dom](https://github.com/remix-run/react-router)
+- [Vite](https://github.com/vitejs/vite)
+- [Netlify](https://www.netlify.com/)
+  - [@netlify-cli](https://github.com/netlify/cli)
+
+Special thanks to [Michael J. Larocca](https://github.com/MichaelLarocca)
